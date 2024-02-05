@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AJAX</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="title">
+            AJAX DATA
+        </div>
+        <div class="main">
+            <div class="row">
+                <div class="select-option">
+                    <label for="selects">Select Category : </label>
+                    <Select id="selects" name="selects-category" title="Category">
+                        <option value="select">select ...</option>
+                    </Select>
+                </div>
+                <span> OR </span>
+                <div class="select-option">
+                    <label for="selects">Enter Name : </label>
+                    <input id="selects" class="searchBox" name="searchBox" placeholder="Enter Name here" title="Category">
+                </div>
+            </div>
+            <div class="space"></div>
+            <button id="fetchBtn" class="fetchBtn">Fetch</button>
+        </div>
+        <div class="space"></div>
+        <div class="product-table">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Title</th>
+                        <th>Brand</th>
+                        <th>Category</th>
+                        <th>Description</th>
+                        <th>Discount Percentage</th>
+                        <th>Price</th>
+                        <th>Rating</th>
+                        <th>Stock</th>
+                        <th>Thumbnail</th>
+                        <th>Images</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+    </body>
+    <script src="script.js"></script>
+
+</html>
